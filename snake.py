@@ -93,7 +93,7 @@ while running:
 	for event in pygame.event.get():
 		if event.type == pygame.QUIT:
 			running = False
-	#snake moves in a fixed direction! Chỉ là thay đổi tọa độ của con rắn thôi + thêm nó vào danh sách tọa độ đang có thôi
+	#snake moves in a fixed direction! 
 		if event.type == pygame.KEYDOWN:
 			
 			if event.key == pygame.K_UP and direction != "down":
